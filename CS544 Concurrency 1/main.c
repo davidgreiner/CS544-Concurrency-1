@@ -8,6 +8,11 @@
 
 #include <stdio.h>
 
+struct item {
+    int value;
+    int waiting_period;
+};
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
